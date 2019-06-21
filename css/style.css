@@ -1,0 +1,520 @@
+/*common*/
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+.main_categories__icon {
+    display: none;
+}
+
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.circle, .semicircle, .hero_banner_btn, .line, .thin_line, .request_title {
+    background: #dfbe1b;
+}
+/*header*/
+
+header {
+    height: 151px;
+    background:#131b31; 
+   
+}
+.logo {
+    width: 27%;
+    margin: 10px 0;
+}
+
+.logo_name {
+    float: right;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+.logo_name span, .hero_banner-second span {
+    color:#dfba00;
+}
+.infomation {
+    width: 73%;
+}
+.main_contacts {
+    padding: 15px 20px; 
+    background: #fff;
+    font-size: 0.938em;
+    color: #707070; 
+    border-bottom-left-radius: 90px;
+    margin-right: -10vw;
+    padding-right: 10vw;
+}
+
+/*nav*/
+.main_categories {
+    margin-left: 15px;
+}
+.main_categories-item {
+    text-transform: uppercase;
+    padding: 30px 10px; 
+}
+.main_categories-item__link {
+    color: #fff;
+    font-size: 0.813em;
+    font-weight: bold;
+}
+.main_categories-item__link:hover {
+    color: #dfba00;
+}
+
+
+/*hero banner*/
+
+.hero_banner {
+    background: url("../img/back2.jpeg") no-repeat  center/cover;
+    height: 85vh;
+    
+}
+
+.hero_banner-main, .hero_banner-second {
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.1em;
+    margin-top: 165px;
+    font-weight: 500;
+} 
+
+h1 {
+    margin-top: 165px;
+    font-weight: 500;
+}
+.hero_banner-about {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.phone{
+    font-size: 1.8em;
+    font-weight: 800;
+    color:#fff;
+    margin-right: 50px;
+    letter-spacing: 0.3px;
+}
+.phone:hover {
+    color: #dfbe1b
+}
+.btn {
+    padding: 12px 30px;
+    border-radius: 36px;
+    color: #fff;
+    height: 60px;
+}
+.hero_banner_btn {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.hero_banner_btn:hover {
+    background: #fff;
+    color: #dfbe1b;
+}
+
+/*carousel*/
+
+.carousel {
+    width: 100%;
+}
+
+.circle{
+    width: 3em;
+    height: 6em;
+    top: 320px;
+    opacity: 1;
+}
+
+.circle-left {
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}    
+
+.circle-right {
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+.delay_one {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+.delay_two {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+/*.repair_cost*/
+/*line*/
+.separation {
+    padding: 0;
+    margin: 0;
+    border: none;
+} 
+.line {
+    height: 8px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.semicircle {
+    width: 3em;
+    height: 1.5em;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    margin: 0 auto;
+    display: block;
+}
+/*form*/
+.repair_cost {
+    background: #131b31;
+}
+.repair_cost-about, .repair_cost-form {
+    margin: 70px 0;
+}
+
+.repair_cost-btn {
+    background: #fff;
+    color: #131b31;
+    margin: 0 15px;
+    text-align: left;
+}
+.repair_cost-desc {
+    font-size: 0.9em;
+    text-align: center;
+}
+.repair_cost-title {
+    font-size: 2.1em;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 15px;
+    color: #dfbe1b;
+}
+
+.send {
+    font-size: 1.1em;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    background: #131b31;
+    color: #dfbe1b;
+    margin: 0 auto;
+    border: #fff 1px solid;
+   
+}
+.icon {
+    font-size: 1.5em;
+}
+
+/*appliance*/
+
+h3 {
+    color: #131b31;
+    font-size: 2.2em;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-align: center; 
+}
+.thin_line {
+    height: 1px;
+    width: 60px;
+}
+.decoration {
+    margin: 0 auto 55px;
+}
+.decoration .semicircle {
+    width: 1.5em;
+    height: 0.75em;
+}
+.decoration_part_two {
+    margin-left: 5px;
+}
+.decoration_part_two .semicircle {
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+.decoration_part_two .thin_line {
+    margin-top: 0.65em;
+}
+.appliance-img {
+    width: 100%;
+}
+
+.appliance-img_washer, .appliance-img_dishwasher, .appliance-img_drywasher {
+    height: 280px;
+    width: 350px;
+    margin: 20px;
+}
+.appliance-img_washer {
+    background: url("../img/washing_clothes.jpg") no-repeat center/cover;
+  }
+
+.appliance-img_dishwasher {
+    background: url("../img/dryer.jpg") no-repeat center/cover;
+}
+.appliance-img_drywasher {
+    background: url("../img/washing_dishes.jpg") no-repeat center/cover;
+}
+
+.darkened {
+    opacity: 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.appliance-img_washer:hover .darkened, .appliance-img_dishwasher:hover .darkened, .appliance-img_drywasher:hover .darkened {
+    opacity: 1;
+    background: rgba(19, 27, 49, 0.7);
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #dfbe1b; 
+    transition: .6s ease;
+}
+
+/*problems*/
+.problems {
+    color: #fff;
+}
+.problems_about {
+    background: #131b31;
+    padding: 50px 0;
+}
+.problems_detail {
+    margin: 0 50px;
+    font-size: 1.6em;
+    padding: 5px;
+}
+.problems_detail span {
+    margin: 0 7px;
+    color: #dfbe1b;
+}
+.problems_desc {
+    color: #131b31;
+    text-align: center;
+    padding: 0 100px 30px;
+}
+
+/*advantages*/
+.advantages {
+    margin-bottom: 50px;
+}
+.advantages_title {
+    color: #131b31;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.advantages_circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50% 50%;
+    margin: 3px;
+    background: #dfbe1b;
+}
+
+.advantages_img {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    border: 1px solid #131b31;
+    overflow: hidden;
+    text-align: center;
+}
+.advantages_img img{
+    height: 60%;
+    width: 60%;
+}
+
+.advantages_about {
+    margin-bottom: 20px;
+}
+
+/*reviews*/
+
+
+.reviews {
+    background: url("../img/clem-onojeghuo-381204-unsplash.jpg") no-repeat top center/cover;
+    background-attachment: fixed;
+}
+
+.dark {
+    background: rgba(19, 27, 49, 0.85);
+    padding: 50px 0;
+}
+
+.reviews_user {
+    width: 5em;
+    height: 5em;
+    background: #dfbe1b;
+    border-radius: 50%;
+    color: #fff;
+}
+.reviews_user {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.fa-user {
+    color: #fff;
+    font-size: 3em;
+    margin: 12px 18px;
+}
+.reviews_desc {
+    text-align: center;
+    width: 60%;
+    font-size: 1.1em;
+    padding: 80px 0;
+    margin: 0 auto;
+}
+
+
+
+/*request*/
+.request {
+    background: #131b31;
+    padding: 50px 0;
+}
+
+.request_title {
+    border-radius: 46px;
+    height: 6em;
+    width: 90%;
+    padding: 0 20px;
+    margin: 0 auto;
+    
+}
+.request_desc {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.request_btn {
+    background: #fff;
+    color: #dfbe1b;
+    margin-left: 70px;
+}
+/*form request*/
+.request_form {
+    display: none;
+    background: #131b31;
+    width: 100%;
+    margin: 0 57px;
+}
+.request_form form {
+   
+    background: #dfbe1b;
+    padding: 20px;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+
+}
+.request_form input {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    padding: 0 10px;
+    background: #131b31;
+    color: #fff;
+}
+
+.request_form-btn{
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0 10px;
+    color: #dfbe1b;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.request_form p {
+   
+    padding: 50px;
+    font-size: 1.2em;
+}
+
+.request_close-btn {
+    display: none;
+    
+
+}
+/*footer*/
+footer {
+    background: #131b31;
+    color: #fff;
+    padding: 20px;
+    font-size: 1em;
+}
+footer i {
+    color: #dfbe1b;
+    font-size: 2em;
+    margin: 20px 0;
+}
+.contacts {
+    text-align: center;
+    margin: 30px;
+    font-size: 1em;
+}
+.contacts a {
+    color: #fff;
+}
+.contacts a:hover {
+    color: #dfbe1b;
+} 
+
+
+/*scroll menu*/
+
+.fixed_menu {
+    display: none;
+    height: 30px;
+    width: 62%;
+    font-size: 1.3em;
+ 
+}
+.fixed_menu a {
+    color: #fff;
+    margin: 0 20px;
+}
+
+.fixed_menu a :hover {
+    color: #dfbe1b;
+}
+
+.fixed_menu i {
+    color: #dfbe1b;
+}
+
+.fixed {
+    position:fixed;
+    top:0; 
+    left:0;
+    width:100%;
+    background:#131b31;
+    z-index: 2;
+    -moz-box-shadow: 5px 5px 20px #333;
+    -webkit-box-shadow: 5px 5px 20px #333;
+    box-shadow: 5px 5px 20px #333;
+}
